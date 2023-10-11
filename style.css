@@ -1,0 +1,48 @@
+body {
+  background-color: #4f2caf;
+}
+.container {
+  background-color: #ffffff;
+  width: 50%;
+  margin: 200px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.timerContainer {
+  width: 90%;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 7px 3px rgba(227, 220, 220, 0.944);
+}
+.js-timer {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 20px 0;
+}
+.buttonContainer button {
+  border-radius: 5px;
+  width: 120px;
+  padding: 15px 0;
+  border: none;
+  color: white;
+  font-size: 17px;
+}
+.buttonContainer {
+  display: flex;
+  gap: 20px;
+}
+.reset-button {
+  background-color: rgb(19, 231, 19);
+}
+.start-button {
+  background-color: rgb(98, 98, 226);
+}
+.stop-button {
+  background-color: rgb(231, 61, 61);
+}
